@@ -1,0 +1,680 @@
+/* .App{
+  margin: 0;
+  padding: 0;
+}   */
+
+li {
+  list-style-type: none;
+}
+
+/** Student login page  */
+
+.entire-page {
+  height: 1000px;
+  background-image: url("https://img.freepik.com/free-vector/online-tutorials-concept_52683-37481.jpg?t=st=1652151404~exp=1652152004~hmac=97f2bf2b2aea2d2797fab214649002a147ef51356e10ee6d9af752be6e08f5bf&w=1380");
+  /* border: 0px;
+  margin: 0px; */
+}
+
+.page-height {
+  height: 1000px;
+  /* margin-bottom:0px ; */
+}
+
+.page-1 {
+  height: 950px;
+
+  background-color: rgba(255, 255, 255, 0.826);
+  background-attachment: fixed;
+}
+
+#icon {
+  color: rgb(11, 11, 16);
+  border: 5px solid rgb(11, 11, 16);
+}
+
+.login-box {
+  height: 700px;
+}
+
+.signin-text-field {
+  height: 250px;
+  width: 350px;
+}
+
+.signup-text-field {
+  height: 250px;
+  width: 400px;
+  position: relative;
+  top: 155px;
+}
+
+.page-2 {
+  background-color: rgba(255, 255, 255, 0.826);
+  height: 950px;
+  background-image: url("https://img.freepik.com/free-vector/online-class-illustration_52683-42415.jpg?t=st=1652160293~exp=1652160893~hmac=337ed5d5b00441597ab198bf8977a6baf606bacb16707b23428941a3cfdddc5d&w=826");
+}
+
+/** Admin login page  */
+
+.admin-entire-page {
+  height: 1000px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border: 0px;
+  margin: 0px; */
+}
+
+.admin-page-height {
+  height: 1000px;
+  /* margin-bottom:0px ; */
+}
+
+.admin-page-1 {
+  height: 950px;
+  background-image: url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.643);
+  background-attachment: scroll;
+}
+
+.fa {
+  color: rgb(244, 244, 244);
+  border: 5px solid rgb(203, 203, 203);
+}
+
+.admin-login-box {
+  height: 700px;
+}
+
+.admin-text-field {
+  height: 250px;
+  width: 350px;
+}
+
+.signup-admin-text-field {
+  height: 250px;
+  width: 350px;
+  position: relative;
+  bottom: 60px;
+}
+
+.admin-page-2 {
+  height: 950px;
+  background-image: url("https://img.freepik.com/free-vector/social-media-data-center-smm-stats-digital-marketing-research-market-trends-analysis-female-expert-studying-online-survey-results_335657-2392.jpg?t=st=1652157218~exp=1652157818~hmac=1e16748338685a1752b0d60f0135f601e61982ec10597717ba24ecfc0ff56b05&w=826");
+}
+
+.admin-login-background {
+  background-color: rgba(240, 248, 255, 0.308);
+}
+
+.admin-login-icon {
+  color: black;
+}
+
+/** Mentor login page  */
+
+.mentor-entire-page {
+  height: 1000px;
+  background-image: url("https://img.freepik.com/free-vector/teacher-standing-near-blackboard-holding-stick-isolated-flat-vector-illustration-cartoon-woman-character-near-chalkboard-pointing-alphabet_74855-8600.jpg?t=st=1652185916~exp=1652186516~hmac=8344ff608bc320ba048f855ff38267cce618a6b655ab792fd785a17728a350e9&w=1380");
+  /* border: 0px;
+  margin: 0px; */
+}
+
+.mentor-page-height {
+  height: 1000px;
+  /* margin-bottom:0px ; */
+}
+
+.mentor-page-1 {
+  height: 950px;
+
+  background-color: rgba(255, 255, 255, 0.826);
+  background-attachment: fixed;
+}
+
+#icon {
+  color: rgb(11, 11, 16);
+  border: 5px solid rgb(11, 11, 16);
+}
+
+.mentor-login-box {
+  height: 700px;
+}
+
+.mentor-signin-text-field {
+  height: 250px;
+  width: 360px;
+}
+
+.mentor-signup-text-field {
+  height: 250px;
+  width: 450px;
+  position: relative;
+  top: 155px;
+  color: rgb(232, 0, 0);
+}
+
+.mentor-page-2 {
+  background-color: rgba(255, 255, 255, 0.826);
+  height: 950px;
+  background-image: url("https://img.freepik.com/free-vector/inspiration-ideas-mentorship-coaching-motivate-guidance-business-solution-creativity-innovation-help-grow-business-concept-businessman-manager-turn-lightbulb-valve-provide-ideas_212586-1194.jpg?w=1380");
+}
+
+/** Navbar stuffs  */
+
+#nav-img {
+  width: fit-content;
+  height: 45px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.nav_bg {
+  background-color: rgb(86, 0, 185);
+}
+
+.txt-clr {
+  color: whitesmoke;
+}
+
+.fa-tog {
+  position: relative;
+  bottom: 5px;
+  right: 2px;
+  border: none;
+}
+
+/** Carosel items */
+
+.carosel-height {
+  height: 950px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carosel-height1 {
+  height: 950px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carosel-height2 {
+  height: 950px;
+  width: 100%;
+  object-fit:  cover;
+}
+
+.overal-div {
+  background-color: #f2f2f2;
+}
+
+/** Admin Dashboard  */
+
+.dash-activity {
+  border-left: 10px solid #0d6efd;
+  background-color: rgb(255, 250, 180);
+  border-radius: 5px;
+  width: 350px;
+}
+
+.dash-activity1 {
+  border-left: 10px solid #198754;
+  background-color: rgb(255, 250, 180);
+  border-radius: 5px;
+  width: 350px;
+}
+
+.dash-activity2 {
+  border-left: 10px solid #0ccaf0;
+  background-color: rgb(255, 250, 180);
+  border-radius: 5px;
+  width: 350px;
+}
+
+.dash-activity3 {
+  border-left: 10px solid #ffc107;
+  background-color: rgb(255, 250, 180);
+  border-radius: 5px;
+  width: 350px;
+}
+
+/** Doughnut */
+
+.chart {
+  width: 500px;
+}
+
+.chart-parent {
+  display: flex;
+  justify-content: center;
+}
+
+/** Bootstrap Cards  */
+
+.card-bg {
+  background-color: rgba(245, 245, 220, 0.316);
+  /* height: 250px; */
+}
+
+.card1-bg {
+  background-color: rgba(245, 245, 220, 0.336);
+}
+
+.card2-bg {
+  background-color: rgba(245, 245, 220, 0.336);
+}
+
+/** Bar Chart  */
+
+.line-chart-parent {
+  width: 1000px;
+}
+
+/** media query  */
+
+@media only screen and (max-width: 570px) {
+  .first-card {
+    margin-left: 28px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .second-card {
+    margin-right: 95px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .ticket-box {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .third-card {
+    margin-right: 55px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .forth-card {
+    margin-right: 200px;
+  }
+}
+
+/** Class element card */
+
+.card-bdy {
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+
+/** Queries Chat Box  */
+
+#standard-basic::placeholder {
+  text-align: center;
+}
+
+/** Common */
+
+li,
+a {
+  text-decoration: none;
+}
+
+/** Mentor  */
+.mentor-portal {
+  background-image: url("https://img.freepik.com/free-vector/online-tutorials-concept_52683-37480.jpg?t=st=1652783456~exp=1652784056~hmac=625313d49eb39b26f2f2b0e0bec252c3ca75997a1878831fd7f93d2aa6917048&w=1380");
+  object-fit: scale-down;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+.box-div {
+  height: 215px;
+  background-image: url("https://img.freepik.com/free-vector/isometric-education-illustration_23-2148074450.jpg?t=st=1652800124~exp=1652800724~hmac=b037024fb7ad54aba6831b8b912b3e9ff48e41652df68e417cc0c890bbea6624&w=826");
+  background-size: 450px;
+  filter: blur(0px);
+}
+
+.box-div:active {
+  cursor: pointer;
+  height: 215px;
+  background-image: url("https://img.freepik.com/free-vector/isometric-education-illustration_23-2148074450.jpg?t=st=1652800124~exp=1652800724~hmac=b037024fb7ad54aba6831b8b912b3e9ff48e41652df68e417cc0c890bbea6624&w=826");
+  background-size: 450px;
+  filter: blur(2px);
+}
+
+.box-div:hover {
+  cursor: pointer;
+}
+
+.box-div1 {
+  height: 215px;
+  background-image: url("https://img.freepik.com/free-vector/taking-notes-concept-illustration_114360-1114.jpg?t=st=1652787147~exp=1652787747~hmac=5e5a1555416247b312496503508f064be67138cc090a07732a4f8ccbf6bf4856&w=826");
+  background-size: 350px;
+}
+
+.box-div1:active {
+  height: 215px;
+  background-image: url("https://img.freepik.com/free-vector/taking-notes-concept-illustration_114360-1114.jpg?t=st=1652787147~exp=1652787747~hmac=5e5a1555416247b312496503508f064be67138cc090a07732a4f8ccbf6bf4856&w=826");
+  background-size: 350px;
+  filter: blur(2px);
+}
+
+.box-div1:hover {
+  cursor: pointer;
+}
+
+/** mentor Details  */
+
+.mentor-info {
+  background-image: url("https://images.wallpaperscraft.com/image/single/pattern_frosty_frost_134125_3840x2160.jpg");
+}
+
+.img {
+  width: 300px;
+  border: 5px solid goldenrod;
+  object-fit: contain;
+  border-radius: 55px;
+  transition-duration: 0.5s;
+}
+
+.img:hover {
+  cursor: pointer;
+  border: none;
+  width: 300px;
+  object-fit: contain;
+  border-radius: 55px;
+
+  /* transition: 0.5s; */
+}
+
+.fa {
+  border: none;
+}
+
+.profile-bg {
+  background-image: url("https://images.unsplash.com/photo-1573495627361-d9b87960b12d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.ment-bio {
+  font-size: 55px;
+}
+
+/** Students card  */
+
+.students-main {
+  background-image: url("https://images.unsplash.com/photo-1609260843286-9d8ad4f7e72c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .students-main {
+    height: 3200px;
+  }
+}
+
+.student-list {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.each-card {
+  background-color: rgba(0, 0, 0, 0.195);
+  transition-duration: 0.5s;
+  margin-bottom: 15px;
+}
+
+.each-card:hover {
+  margin-bottom: 35px;
+  background-color: rgba(0, 0, 0, 0.195);
+}
+
+.img-card {
+  border-radius: 35px;
+  object-fit: cover;
+  width: 175px;
+  height: 175px;
+}
+
+.stu-detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/** Asigen Task  */
+
+.box {
+  display: flex;
+  align-items: center;
+  height: 1000px;
+  background-image: url("https://images.unsplash.com/photo-1569098644584-210bcd375b59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-colu {
+  background-color: #00000021;
+  box-shadow: rgba(0, 0, 0, 0.363) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 35px;
+  border: 3px solid goldenrod;
+  transition: 0.5s;
+}
+
+.flex-colu:hover {
+  background-color: #cbcbcb21;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.flex-colu:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/** Admin pannel */
+
+.adm-pnl-hdr {
+  background-color: rgba(0, 0, 0, 0.19);
+}
+
+.nav_bg_admin {
+  background-image: url("https://images.unsplash.com/photo-1632406898177-95f7acd8854f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+}
+
+.page {
+  background-color: #000000;
+}
+
+/** Create student (admin login) */
+
+.Inp_Common {
+  margin-top: 9px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Submit_btn {
+  padding: 10px;
+}
+
+.crt-stu-bg {
+  background-image: url("https://images.unsplash.com/photo-1515847049296-a281d6401047?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 940px;
+}
+
+.frm-bx {
+  border-radius: 35px;
+  background-color: #0000006a;
+}
+
+/** Create student (admin login) */
+
+.crt-ment-bg {
+  background-image: url("https://images.unsplash.com/photo-1515847049296-a281d6401047?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 850px;
+}
+
+.frm-bx-ment {
+  border-radius: 35px;
+  background-color: #0000006a;
+}
+
+.zen-logo {
+  color: #000000;
+  font-size: 90px;
+}
+
+/** Get student  */
+
+.get-stu-bg {
+  background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/** Get Students */
+
+.img-table {
+  height: 155px;
+  width: 155px;
+}
+
+/** Get Mentor Card */
+
+.mentor-main {
+  background-image: url("https://images.unsplash.com/photo-1609260843286-9d8ad4f7e72c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mentor-main {
+    height: 3900px;
+  }
+}
+
+.mentor-list {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.each-card {
+  background-color: rgba(0, 0, 0, 0.195);
+  transition-duration: 0.5s;
+  margin-bottom: 15px;
+}
+
+.each-card:hover {
+  margin-bottom: 35px;
+  background-color: rgba(0, 0, 0, 0.195);
+}
+
+.img-card-ment {
+  border-radius: 35px;
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+}
+
+.mentor-detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/** NavMain  */
+
+.nav_bg_cent {
+  background-image: url("https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+}
+
+.carosel-txt-size {
+  font-size: 15px;
+}
+
+.headings {
+  text-decoration: crimson;
+}
+
+/* Assigen class Detail */
+
+.box1 {
+  background-image: url("https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.asign-task {
+  font-weight: 700;
+  color: #0d6efd;
+  position: absolute;
+  left: 45%;
+  bottom: 25px;
+}
+
+.asign-cd {
+  font-weight: 700;
+  color: #0d6efd;
+  position: absolute;
+  left: 43%;
+  bottom: 25px;
+}
+
+.mentor-queries {
+  position: relative;
+  bottom: 35px;
+}
+
+/** Task Valuation  */
+
+.valuate-task {
+  font-weight: 700;
+  color: #0d6efd;
+  position: absolute;
+  left: 45%;
+  bottom: 25px;
+}
+
+.task-valuation {
+  background-image: url("https://images.pexels.com/photos/3707669/pexels-photo-3707669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.box-asign-task {
+  display: flex;
+  align-items: center;
+  height: 1000px;
+  background-image: url("https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
